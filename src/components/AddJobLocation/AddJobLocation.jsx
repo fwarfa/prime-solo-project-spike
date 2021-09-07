@@ -35,8 +35,6 @@ function AddJobLocation() {
     }
     return (
         <div>
-            <h1>Add Location for Job!</h1>
-
             <Doughnut 
                 data={{
                     labels: ['Total Applications', 'Total Interviews', 'Total Rejections', 'Total Offers'],
@@ -69,6 +67,8 @@ function AddJobLocation() {
                 }}
             />
 
+            <h1>Add Location for Job!</h1>
+            
             <form onSubmit={handleSubmit}>
                 <input 
                     name="companyName"

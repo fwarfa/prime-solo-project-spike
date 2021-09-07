@@ -36,6 +36,7 @@ export class MapContainer extends React.Component {
     render() {
       return (
           <div id="googleMap">
+              <h1>Google Map Integration</h1>
             <PlacesAutocomplete
                 value={this.state.address}
                 onChange={this.handleChange}
